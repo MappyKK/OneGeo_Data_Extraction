@@ -10,7 +10,7 @@ This script was created by gathering One Geo data through chunking in 0.5 by 0.5
 
 # How it's Made
 
-Coding Languages/Libraries: Python, SQL, DuckDB, GeoPandas, Pandas, json, requests, os 
+Coding Languages/Libraries/APIs: Python, SQL, DuckDB, GeoPandas, Pandas, Geopy, Nominatim, json, requests, os 
 
 Data Types Supported: GeoJSON, Parquet, other forms of spatial data such as shapefiles or geopackages should work by changing the driver when exporting
 
@@ -55,3 +55,7 @@ Call the One Geo API for every tile that intersects and export it as a geojson
 ### Step 4:
 
 Append each geojson tile with each other to create one single geojson layer for each country.
+
+### Extra Functionality
+
+Reverse Geocoding, Lat, Long Coordinates from building centroids.
