@@ -59,3 +59,11 @@ Append each geojson tile with each other to create one single geojson layer for 
 ### Extra Functionality
 
 Reverse Geocoding, Lat, Long Coordinates from building centroids.
+
+# Next Steps
+
+Convert GeoJSON to 3d tiles to efficiently render 3d building data in Cesium
+
+Use this link for more information on installation and running py3dtilers using the GeoJSON tiler:
+
+    https://github.com/huhufish236/propeterra/blob/main/README.md
